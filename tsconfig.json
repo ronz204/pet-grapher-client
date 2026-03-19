@@ -7,6 +7,8 @@
     "moduleDetection": "force",
 
     // Bundler mode
+    "outDir": "./dist",
+    "types": ["@types/bun"],
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
@@ -17,6 +19,7 @@
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
+    "isolatedModules": true,
     "isolatedDeclarations": true,
 
     "skipLibCheck": true,
