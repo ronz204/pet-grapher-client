@@ -2,8 +2,12 @@
   "name": "grapher",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build": "bunup"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "bunup": "^0.16.31"
   },
   "peerDependencies": {
     "typescript": "^5"
