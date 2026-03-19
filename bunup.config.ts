@@ -1,4 +1,5 @@
 import { defineConfig } from "bunup";
+import { exports } from "bunup/plugins";
 
 export default defineConfig({
   entry: ["source/index.ts"],
@@ -7,4 +8,5 @@ export default defineConfig({
   dts: true,
   minify: true,
   sourcemap: true,
+  plugins: [exports()],
 });
