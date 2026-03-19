@@ -1,1 +1,3 @@
-console.log("Hello via Bun!");
+export function greet(name: string): string {
+  return `Hello, ${name}!`;
+};
