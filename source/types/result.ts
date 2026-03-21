@@ -1,4 +1,4 @@
-import type { GqlError } from "./types";
+import type { GqlError } from "./error";
 
 export type Result<TData, TError = GqlError> =
   | { ok: true; data: TData }
